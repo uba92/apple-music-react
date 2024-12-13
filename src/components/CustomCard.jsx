@@ -3,7 +3,7 @@
 import { Card } from 'react-bootstrap'
 const CustomCard = (props) => {
   return (
-    <Card className=' border-0'>
+    <Card className='text-light bg-black border-0'>
       <Card.Img
         variant='top'
         src={props.song.album.cover}

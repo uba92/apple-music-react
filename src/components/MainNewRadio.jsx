@@ -8,62 +8,72 @@ const MainNewRadio = () => {
           Nuovi episodi radio <i className='bi bi-chevron-right'></i>
         </h5>
         <Col>
-          <Card className=' border-0'>
+          <Card className='bg-black text-light border-0'>
             <Card.Img
               variant='top'
               src='src/assets/assets/images/2a.png'
               className=' rounded-3'
             />
             <Card.Body>
-              <Card.Title>Prologo con Abuelo</Card.Title>
+              <Card.Title className='text-secondary fs-6'>
+                Prologo con Abuelo
+              </Card.Title>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card className=' border-0'>
+          <Card className='bg-black text-light border-0'>
             <Card.Img
               variant='top'
               src='src/assets/assets/images/2b.png'
               className=' rounded-3'
             />
             <Card.Body>
-              <Card.Title>The Wanderer</Card.Title>
+              <Card.Title className='text-secondary fs-6'>
+                The Wanderer
+              </Card.Title>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card className=' border-0'>
+          <Card className='bg-black text-light border-0'>
             <Card.Img
               variant='top'
               src='src/assets/assets/images/2c.png'
               className=' rounded-3'
             />
             <Card.Body>
-              <Card.Title>Michael Bublé & Carly Pearce</Card.Title>
+              <Card.Title className='text-secondary fs-6'>
+                Michael Bublé & Carly Pearce
+              </Card.Title>
             </Card.Body>
           </Card>
         </Col>
         <Col className=' d-none d-md-block'>
-          <Card className=' border-0'>
+          <Card className='bg-black text-light border-0'>
             <Card.Img
               variant='top'
               src='src/assets/assets/images/2d.png'
               className=' rounded-3'
             />
             <Card.Body>
-              <Card.Title>Stephan Moccio: The Zane Lowe Interview</Card.Title>
+              <Card.Title className='text-secondary fs-6'>
+                Stephan Moccio: The Zane Lowe Interview
+              </Card.Title>
             </Card.Body>
           </Card>
         </Col>
         <Col className=' d-none d-lg-block'>
-          <Card className=' border-0'>
+          <Card className='bg-black text-light border-0'>
             <Card.Img
               variant='top'
               src='src/assets/assets/images/2f.png'
               className=' rounded-3'
             />
             <Card.Body>
-              <Card.Title>Chart Spotlight: Julia Michaels</Card.Title>
+              <Card.Title className='text-secondary fs-6'>
+                Stephan Moccio: The Zane Lowe Interview
+              </Card.Title>
             </Card.Body>
           </Card>
         </Col>

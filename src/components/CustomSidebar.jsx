@@ -6,6 +6,7 @@ const CustomSidebar = () => {
       <Row className=' justify-content-start p-3'>
         <Col>
           <svg
+            fill='white'
             height='20'
             viewBox='0 0 83 20'
             width='83'

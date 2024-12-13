@@ -12,13 +12,14 @@ const MyFooter = () => {
           <p>Italia</p>
         </Col>
         <Col xs={10}>
-          <p>| English(UK)</p>
+          <p className=' text-secondary'>| English(UK)</p>
         </Col>
       </Row>
       <Row>
         <Col>
-          <p>
-            Copyright &copy; {getYear()} <span>Apple Inc.</span> Tutti i diritti
+          <p className=' text-secondary'>
+            Copyright &copy; {getYear()}{' '}
+            <span className=' text-light'>Apple Inc.</span> Tutti i diritti
             riservati.
           </p>
         </Col>
