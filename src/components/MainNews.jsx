@@ -10,10 +10,10 @@ const MainNews = () => {
           <Card className=' h-100 border-0 bg-black text-light'>
             <Card.Body style={{ height: '40%' }}>
               <Card.Text>
-                <h5>NUOVA STAZIONE RADIO</h5>
-                <p>
+                <div>NUOVA STAZIONE RADIO</div>
+                <div>
                   Rilassati, al resto pensiamo noi. Ascolta Apple Music Chill
-                </p>
+                </div>
               </Card.Text>
             </Card.Body>
             <Card.Img variant='top' src='src/assets/assets/images/1a.png' />
@@ -23,8 +23,8 @@ const MainNews = () => {
           <Card className=' h-100 border-0 bg-black text-light'>
             <Card.Body style={{ height: '40%' }}>
               <Card.Text>
-                <h5>NUOVA STAZIONE RADIO</h5>
-                <p>Ecco la nuova casa della musica latina</p>
+                <div>NUOVA STAZIONE RADIO</div>
+                <div>Ecco la nuova casa della musica latina</div>
               </Card.Text>
             </Card.Body>
             <Card.Img variant='top' src='src/assets/assets/images/1b.png' />

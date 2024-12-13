@@ -33,13 +33,13 @@ const CustomSidebar = () => {
       </Row>
       <Row>
         <Col xs={12} className='my-3'>
-          <i className='bi bi-house-door'></i> Home
+          <i className='bi bi-house-door' style={{ color: 'red' }}></i> Home
         </Col>
         <Col xs={12} className='my-3'>
-          <i className='bi bi-grid'></i> Novità
+          <i className='bi bi-grid' style={{ color: 'red' }}></i> Novità
         </Col>
         <Col xs={12} className='my-3'>
-          <i className='bi bi-broadcast'></i> Radio
+          <i className='bi bi-broadcast' style={{ color: 'red' }}></i> Radio
         </Col>
       </Row>
     </Container>
