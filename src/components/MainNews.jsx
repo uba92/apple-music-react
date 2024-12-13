@@ -16,7 +16,11 @@ const MainNews = () => {
                 </div>
               </Card.Text>
             </Card.Body>
-            <Card.Img variant='top' src='src/assets/assets/images/1a.png' />
+            <Card.Img
+              variant='top'
+              src='src/assets/assets/images/1a.png'
+              className=' rounded-4'
+            />
           </Card>
         </Col>
         <Col xs={6}>
@@ -27,7 +31,11 @@ const MainNews = () => {
                 <div>Ecco la nuova casa della musica latina</div>
               </Card.Text>
             </Card.Body>
-            <Card.Img variant='top' src='src/assets/assets/images/1b.png' />
+            <Card.Img
+              className=' rounded-4'
+              variant='top'
+              src='src/assets/assets/images/1b.png'
+            />
           </Card>
         </Col>
       </Row>
