@@ -2,12 +2,12 @@ import { Col, Container, Row, Card } from 'react-bootstrap'
 
 const MainNews = () => {
   return (
-    <Container className=' mt-3'>
+    <Container className=' mt-3 '>
       <Row>
         <h1>Novità</h1>
         <hr />
         <Col xs={6}>
-          <Card className=' h-100 border-0'>
+          <Card className=' h-100 border-0 bg-black text-light'>
             <Card.Body style={{ height: '40%' }}>
               <Card.Text>
                 <h5>NUOVA STAZIONE RADIO</h5>
@@ -20,7 +20,7 @@ const MainNews = () => {
           </Card>
         </Col>
         <Col xs={6}>
-          <Card className=' h-100 border-0'>
+          <Card className=' h-100 border-0 bg-black text-light'>
             <Card.Body style={{ height: '40%' }}>
               <Card.Text>
                 <h5>NUOVA STAZIONE RADIO</h5>
