@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import CustomCard from './CustomCard'
 
-const MainNewReleases = () => {
+const MainNewReleases2 = () => {
   const BASE_URL =
     ' https://striveschool-api.herokuapp.com/api/deezer/search?q=queen'
 
@@ -31,15 +31,15 @@ const MainNewReleases = () => {
     console.log('Dati salvati nello state: ', songs)
   }
   return (
-    <Container className=' d-block d-lg-none'>
+    <Container className=' d-none d-lg-block'>
       <Row>
         <h5>
           Nuove uscite <i className='bi bi-chevron-right'></i>
         </h5>
         {songs.length !== 0 &&
-          songs.slice(0, 6).map((song) => {
+          songs.slice(0, 10).map((song) => {
             return (
-              <Col key={song.id} xs={4}>
+              <Col key={song.id} xs={2}>
                 <CustomCard song={song} />
               </Col>
             )
@@ -49,4 +49,4 @@ const MainNewReleases = () => {
   )
 }
 
-export default MainNewReleases
+export default MainNewReleases2
